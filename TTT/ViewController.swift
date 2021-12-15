@@ -59,6 +59,12 @@ class ViewController: UIViewController {
             button.backgroundColor = .lightGray
             playerColor = .red
         }
+        
+        board =
+            ["0","0","0",
+             "0","0","0",
+             "0","0","0"
+            ]
         winnerLabel.text = ""
     }
     
